@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "456742441773",
+    "project_id": "chat-app-a7dd2",
+    "storage_bucket": "chat-app-a7dd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456742441773:android:3ce0da64144b354d8939a4",
+        "android_client_info": {
+          "package_name": "com.savija.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIrK54ixABhVTaYcoYpafhjoitK5JR4KA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
