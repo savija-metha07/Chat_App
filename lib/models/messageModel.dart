@@ -5,6 +5,7 @@ class Message {
   final String from;
   final String to;
   final String msg;
+  final String uqnm;
   final Timestamp timestamp;
 
   Message({
@@ -12,6 +13,7 @@ class Message {
     required this.from,
     required this.to,
     required this.msg,
+    required this.uqnm,
     required this.timestamp,
   });
 
@@ -21,6 +23,7 @@ class Message {
       from: map['from'],
       to: map['to'],
       msg: map['msg'],
+      uqnm: map['uqnm'],
       timestamp: map['timestamp'],
     );
   }
@@ -30,6 +33,7 @@ class Message {
       'from': from,
       'to': to,
       'msg': msg,
+      'uqnm':uqnm,
       'timestamp': timestamp,
     };
   }

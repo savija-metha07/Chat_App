@@ -1,4 +1,5 @@
 import 'package:chatapp/Screens/contactsListScreen.dart';
+import 'package:chatapp/Screens/homeScreen.dart';
 import 'package:chatapp/Screens/login.dart';
 import 'package:chatapp/Screens/registerUser.dart';
 import 'package:chatapp/service/service.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: PhoneAuthenticationScreen(), //update
+      home: HomeScreen(), //update
     );
   }
 }

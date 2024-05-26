@@ -22,6 +22,9 @@ class _ContactListState extends State<ContactList> {
       setState(() {
         _contacts = contacts.toList();
       });
+      for(var i in _contacts){
+        print(i.phones?.first.value??null);
+      }
     } else {
       // Handle case when permission is denied
     }
@@ -35,8 +38,8 @@ class _ContactListState extends State<ContactList> {
       itemBuilder: (context, index) {
         Contact contact = _contacts[index];
         return ListTile(
-          title: Text(contact.phones?.first.value ?? ''),
-        //  subtitle: Text(contact.phones?.first.value ?? ''),
+          title: Text(contact.phones!.first.value! ),
+         subtitle: Text(contact.phones?.first.value ?? ''),
         );
       },
     ),

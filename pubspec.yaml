@@ -50,6 +50,7 @@ dev_dependencies:
   shared_preferences: ^2.0.6 
   contacts_service:
   permission_handler:
+ 
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
