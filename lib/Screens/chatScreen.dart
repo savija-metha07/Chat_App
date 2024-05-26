@@ -55,6 +55,7 @@ class _ChatScreenState extends State<ChatScreen> {
     return a+b;
 
   }
+  
 
   Stream<List<QueryDocumentSnapshot>> _getMessagesStream2() {
     var sentMessagesStream = FirebaseFirestore.instance
